@@ -33,11 +33,8 @@ pip install -r requirements.txt
 
 - **Feature extraction**: The code required to generate pretrained embeddings for different nodes can be found at feature/pretrained_feature.py. Alternatively, the precomputed node embedding can be downloaded directly from Zenodo: [**multimodal.rar**](https://zenodo.org/api/records/22637711/draft/files/multimodal.rar/content)
 ## Pretrain and Finetune
-- **Pretrain**: The pretraining script is executed from the command line using ```bash python train.py```
-- **Finetune**: The finetune script is executed from the command line using ```bash python finetune.py```
-- **Finetune evidential deep learning model**: The finetune EDL script is executed from the command line using ```bash python finetune_edl.py```
+- **Pretrain**: The pretraining script is executed from the command line using ```python train.py```
+- **Finetune**: The finetune script is executed from the command line using ```python finetune.py```
+- **Finetune evidential deep learning**: The finetune EDL script is executed from the command line using ```python finetune_edl.py```
 ## Citation
-
-
-
 
